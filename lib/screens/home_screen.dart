@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final TrackingScrollController _trackingScrollController =
       TrackingScrollController();
   @override
-  Void dispose() {
+  void dispose() {
     _trackingScrollController.dispose();
     super.dispose();
   }
